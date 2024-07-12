@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap");
+
+body {
+  margin-top: 125px;
+  /* font-family: Assistant; */
+  background: #ccffbd;
+}
+
+.kotak1 {
+  /* box-shadow: 1px 1px 2px 2px black; */
+  box-shadow: 0px 0px 1px 0px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+
+  box-sizing: border-box;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  background: #ffffff;
+}
+
+.kotak2 {
+  /* box-shadow: 1px 1px 2px 2px black; */
+  box-shadow: 0px 0px 1px 0px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+
+  box-sizing: border-box;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  background: #ffffff;
+}
+
+.kotak {
+  box-shadow: 0px 0px 1px 0px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  background: #ffffff;
+}
+
+#login {
+  padding-left: 40px;
+}
+
+#logintext {
+  width: 122px;
+  height: 65px;
+
+  margin-bottom: 30px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 65px;
+}
+
+input[type="text"],
+input[type="captcha"],
+input[type="password"] {
+  width: 300px;
+  height: 39px;
+  left: 103px;
+  top: 410px;
+
+  font-family: Assistant;
+  border: 1px solid #7eca9c;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  width: 300px;
+  height: 47px;
+
+  background: #2f5d62;
+  border-radius: 10px;
+
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#gambar {
+  background-color: #7eca9c;
+  margin-left: 00px;
+}
+
+img {
+  margin-top: 65px;
+  width: 330px;
+  height: 330px;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 9px;
+  font-family: Assistant;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+#loginbtn {
+  background: #7eca9c;
+  border: 1px solid #7eca9c;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#loginbtn:hover {
+  background: #a6d8ba;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#create {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  text-decoration: none;
+  /* identical to box height */
+
+  color: #2f5d62;
+}
+
+#notreg {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  /* identical to box height */
+  margin-left: 25px;
+  color: #000000;
+}
+
+h4 {
+  margin-left: 100px;
+}
+
+.margin {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}

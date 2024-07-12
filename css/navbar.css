@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap");
+
+#loginbtn {
+  background: #2f5d62;
+  border-radius: 10px;
+}
+
+#Logoutbtn {
+  background: red;
+  border-radius: 10px;
+  border: none;
+}
